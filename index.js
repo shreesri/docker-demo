@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('It is a new deployment for spinnaker automated build');
+  res.send('It is  a demo app.');
 });
 
 var server = app.listen(3000, function () {
