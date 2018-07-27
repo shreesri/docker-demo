@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('This is a Nodejs application and deployed on Docker container');
+  res.send('This is a Nodejs application and it is deployed on Docker container');
 });
 
 var server = app.listen(3000, function () {
