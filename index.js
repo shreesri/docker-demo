@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Spinnaker Demo! on 4th Feb 2019');
+  res.send('EMS Spinnaker Demo! on 25 Feb 2019');
 });
 
 var server = app.listen(3000, function () {
